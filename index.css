@@ -5,14 +5,30 @@ background-image: url(imagem/readf.jpg);
 }
 
 
-body{
+/* body{
     background: url(imagem/nnor.jpg) no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+} */
+
+body{
+  padding: 0;
+  margin: 0;
 }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.navegation{
+  padding-top: 35px;
+}
+
 
      
     
