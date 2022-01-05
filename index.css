@@ -1,23 +1,78 @@
 
 
-body{
+/* body{
     background: url(imagem/nnor.jpg) no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+} */
+
+body{
+  padding: 0;
+  margin: 0;
+  background: url(imagem/nnor.jpg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;-moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.header,#menu{
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-image: url(imagem/readf.jpg);
+
+ /* color: black;
+  -webkit-box-shadow:0 10px 20px 0 rgb(17, 35, 192);
+  font-size: ;*/
+font-size: 40px;
 
 }
 
-.header{
+.navegation{
+  padding-top: 35px;
+  -webkit-box-shadow:0 10px 20px 0 rgb(17, 35, 192);
+  color: black;
+
+}
+
+.navegation li a{
+  float:right;
+  border-right:10px solid #2372a7;
+  color: black;
+
+}
+ 
+/*.header{
 padding: 25px;
 background-image: url(imagem/readf.jpg);
 text-align: left;
+}*/
+
+#superior-content{
+  text-align: center;
+font-size: 50px;
+
+  
+}
+
+
+#about-me{
+padding:25px;
+text-align: center;
+font-size: 40px;
+
+
+/*background-image: url(imagem/fundo-slider-home-azul.jpg);*/
+ /*-webkit-box-shadow:0 10px 20px 0 rgb(17, 35, 192);*/
 
 }
+
 
 
      
@@ -41,10 +96,9 @@ text-align: left;
 .footer,#bottom-container{
     padding: 25px;
     display:grid;
-    background-image: url(imagem/readf.jpg);
-
-   
-    text-align:center;
-  
-    margin-top: 5px;
+    background-image: url(imagem/readf.jpg)
+    
+     
 }
+
+    
