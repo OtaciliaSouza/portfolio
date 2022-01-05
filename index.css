@@ -1,8 +1,3 @@
-.header,#h1,#h2{
-padding: 25px;
-background-image: url(imagem/readf.jpg);
-
-}
 
 
 body{
@@ -13,6 +8,17 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
+.header,#menu{
+
+}
+
+.header{
+padding: 25px;
+background-image: url(imagem/readf.jpg);
+text-align: left;
+
+}
+
 
      
     
