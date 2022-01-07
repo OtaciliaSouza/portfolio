@@ -1,5 +1,3 @@
-/********************************* GENERAL *********************************/
-
 body {
     padding: 0;
     margin: 0;
@@ -32,100 +30,21 @@ header {
     color: black;
 }
 
-.image-container p,
-.site-one-page-img,
-.site-one-page-description {
-    position: relative;
-}
-
-a p,
-li,
-p a {
-    color: #40514E;
-}
-
 h2,
-.image-container p {
+p {
+    font-size: 30px;
     text-align: center;
 }
-
-h2 {
-    margin-top: 90px;
-    font-size: 2.5rem
-}
-
-.image-container {
-    padding: 60px 30px 20px;
-    margin-left: 70px;
-}
-
-.image-container a {
-    text-decoration: none;
-}
-
-.title-white {
-    color: white;
-}
-
-.image-container p {
-    right: 12.5rem;
-    bottom: 5rem;
-}
-
-
-/* #container-child-1, #container-child-2{
+ 
+#container-child-1,
+#container-child-2 {
     justify-content: right;
-} */
+}
 
-#container-child-3,
+*/ #container-child-3,
 #container-child-4 {
     justify-content: left;
 }
-
-#container-child-2 {
-    margin-top: 100px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a p {
-    display: none;
-}
-
-.img-portfolio:hover p {
-    display: inline;
-    font-size: 0.9rem;
-    font-weight: bold;
-}
-
-
-/********************************* BUTTONS *********************************/
-
-
-/*.prev-button, .next-button {
-    position: absolute;
-    font-size: 3rem;
-    bottom: 16rem;
-}
-
-.prev-button {
-    left: 1rem;
-}
-
-.next-button {
-    right: 1rem;  
-}
-
-.prev-button:hover, .next-button:hover {
-    opacity: 0.4;
-}
-
-.prev-button a, .next-button a {
-    color: #FF8882;
-}
-*/
 
 .footer {
     text-align: center;
