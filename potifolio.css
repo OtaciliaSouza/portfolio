@@ -41,10 +41,11 @@ p {
     justify-content: right;
 }
 
-*/ #container-child-3,
+ #container-child-3,
 #container-child-4 {
     justify-content: left;
 }
+
 
 .footer {
     text-align: center;
