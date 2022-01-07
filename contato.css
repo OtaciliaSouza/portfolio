@@ -1,47 +1,41 @@
-
-
-body{
+body {
     padding: 0;
     margin: 0;
-    background: url(imagem/nnor.jpg) no-repeat center center
-      fixed;
+    background: url(imagem/nnor.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;-moz-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
-  header{
+header {
     display: flex;
     justify-content: space-between;
     background-image: url(imagem/readf.jpg);
     font-size: 25px;
-  
-  }
-  .navegation{
-    padding-top: 35px;
-    -webkit-box-shadow:0 10px 20px 0 rgb(17, 35, 192);
-    color: black;
-  
-  }
-  
-  .navegation li a{
-    float:right;
-    border-right:10px solid #2372a7;
-    color: black;
-  
-  }
-
-
-#get-in-touch{
-position: relative;
-text-align: center;
-
 }
 
-#Contact-container{
+.navegation {
+    padding-top: 35px;
+    -webkit-box-shadow: 0 10px 20px 0 rgb(17, 35, 192);
+    color: black;
+}
+
+.navegation li a {
+    float: right;
+    border-right: 10px solid #2372a7;
+    color: black;
+}
+
+#get-in-touch {
+    position: relative;
+    text-align: center;
+}
+
+#Contact-container {
     display: flex;
     justify-content: space-around;
     margin: 50px 0 59.4px 0;
@@ -57,16 +51,15 @@ text-align: center;
 #contact-description {
     width: 40%
 }
+
 .contact-icon {
-    width: 30%;
+    width: 80%;
     height: 1.5rem;
 }
 
-
-.footer,#bottom-container{
-    text-align:center ;
+.footer,
+#bottom-container {
+    text-align: center;
     padding: 25px;
-   background-image: url(imagem/readf.jpg)
-    
-     
+    background-image: url(imagem/readf.jpg)
 }
