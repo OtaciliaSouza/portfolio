@@ -79,16 +79,38 @@ font-size: 40px;
   background-size: cover;
 }*/
 
-.footer,#bottom-container{
-    padding: 25px;
-    display:grid;
+
+#get-in-touch{
+  position: relative;
+  text-align: center;
+  
+  }
+  
+  #Contact-container{
+      display: flex;
+      justify-content: space-around;
+      margin: 50px 0 59.4px 0;
+      text-align: center;
+  }
+  
+  #contact-child-1 {
+      width: 60%;
+      font-size: 16px;
+      left: 10.63rem;
+  }
+  
+  #contact-description {
+      width: 40%
+  }
+  .contact-icon {
+      width: 30%;
+      height: 1.5rem;
+  }
+  
+  
+  .footer,#bottom-container{
+   
     background-image: url(imagem/readf.jpg)
     
-     
 }
 
-
-
-
-
-    

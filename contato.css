@@ -66,9 +66,7 @@ text-align: center;
 .footer,#bottom-container{
     text-align:center ;
     padding: 25px;
-    display:grid;
-    background-image: url(imagem/readf.jpg)
-    
+   background-image: url(imagem/readf.jpg)
     
      
 }
