@@ -28,16 +28,33 @@ header {
     float: right;
     border-right: 10px solid #2372a7;
     color: black;
+  
+}
+
+.imagem-container {
+    float: left;
+    margin: 0;
+   padding: 10px;
+}
+.imagem portfolio{
+    float: rigth;
+    margin: 0;
+   padding: 25px;
 }
 
 h2,
 p {
     font-size: 30px;
     text-align: center;
+     white-space: pre; 
+    
+    
+    
 }
  
 #container-child-1,
 #container-child-2 {
+    
     justify-content: right;
 }
 
